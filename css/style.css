@@ -16,6 +16,13 @@ html, body {
     z-index: 1;
 }
 
+.menu-bar-qs {
+    position: fixed;
+    top: 0;
+    background-color: rgba(148, 11, 11, 0.788);
+    color: black;
+    z-index: 1;
+}
 
 .onTop {
     background-color: aliceblue;
@@ -155,19 +162,27 @@ html, body {
     box-shadow: 0 0 1em #000;
 }
 
-.txt-empresa h1 {
-    font-size: 2.2rem;
-}
-
-
-
 .img-social img {
     width: 100%;
 }
 
+.txt-empresa h1 {
+    font-size: 2.2rem;
+    color: #5D6D7E;
+    font-weight: 250;
+}
+
+
 .txt-empresa p {
     font-size: 1.6rem;
+    color: #5D6D7E;
     text-align: justify;
+    font-weight: 250;
+}
+
+.carousel-inner img {
+    
+    width: 100%;
 }
 
 footer {
