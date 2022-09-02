@@ -199,6 +199,14 @@ html, body {
     width: 100%;
 }
 
+.contato label {
+    font-size: 1.4rem;
+}
+
+.contato input {
+    font-size: 1.4rem;
+}
+
 footer {
     background-color: #333333;
     color: #fff;
