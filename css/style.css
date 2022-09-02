@@ -1,0 +1,197 @@
+/* zerando css */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+.menu-bar {
+    position: fixed;
+    top: 0;
+    background-color: rgba(95,95,95,0.2);
+    color: black;
+    z-index: 1;
+}
+
+
+.onTop {
+    background-color: aliceblue;
+}
+
+
+.navbar-brand img {
+    width: 35rem;
+}
+
+.navbar-nav li {
+    font-size: 1.6rem;
+}
+
+.banner-movie {
+    background-size: cover;
+    width: 100%;
+    z-index: -1;
+}
+
+.text-choice {
+    background-color: #f7f7f7;
+}
+
+.text-choice h1 {
+    text-transform: uppercase;
+    font-size: 4rem
+}
+
+.text-choice p {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.destaque-title h1 {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 4rem;
+    border: 0.2rem solid transparent;
+    transition: border 0.5s;   
+    padding: 1%;
+}
+
+@media screen and (max-width: 600px){
+    .destaque-title h1 {
+        font-size: 2.2rem;
+    }
+} 
+
+
+.destaque-title h1:hover {
+    padding: 1%;
+    border: 0.2rem solid red;
+}
+
+.zlider-div {
+    z-index: -1;
+}
+
+.slider-div img{
+    margin-left: 20%;
+    margin-right: 20%;    
+    width: 60%;
+    z-index: -1;
+}
+
+@media screen and (max-width: 600px) {
+    .slider-div {
+      width: 100%;
+    }
+  }
+
+.pedra {
+    padding-left: 5%;
+}
+
+.pedra-verde {
+    background-image: url('./../assets/img/pedra-verde.jpg');
+    background-size: cover;
+    height: 20rem;
+    width: 30rem;
+}
+
+@media screen and (max-width: 600px) {
+    .pedra-verde {
+      width: 45rem;
+    }
+  }
+
+.pedra-cinza {
+    background-image: url('./../assets/img/pedra-cinza.jpg');
+    background-size: cover;
+    height: 20rem;
+    width: 30rem;
+
+}
+
+@media screen and (max-width: 600px) {
+    .pedra-cinza {
+      width: 45rem;
+    }
+  }
+
+.pedra-amarela {
+    background-image: url('./../assets/img/pedra-amarela.jpg');
+    background-size: cover;
+    height: 20rem;
+    width: 30rem;
+
+}
+
+@media screen and (max-width: 600px) {
+    .pedra-amarela {
+      width: 45rem;
+    }
+  }
+
+.saibamais button {
+    background-color: #000;
+    color: #f7f7f7;
+    font-size: 1.4rem;
+    transition: background-color 0.8s;
+}
+
+.saibamais button:hover {
+    background-color: #333333;
+}
+
+.uno {
+    padding-top: 110px;
+}
+
+.img-empresa img {
+    width: 90%;
+    box-shadow: 0 0 1em #000;
+}
+
+.txt-empresa h1 {
+    font-size: 2.2rem;
+}
+
+
+
+.img-social img {
+    width: 100%;
+}
+
+.txt-empresa p {
+    font-size: 1.6rem;
+    text-align: justify;
+}
+
+footer {
+    background-color: #333333;
+    color: #fff;
+}
+
+footer h1 {
+    font-size: 2rem;
+}
+
+footer p {
+    font-size: 1.2rem;
+}
+
+.footer-dev{
+    background-color: #000;
+    color: #fff;
+    font-size: 0.8rem;
+}
+
+
+
+
+
+
+
